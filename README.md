@@ -10,7 +10,7 @@ Send the buttons and Circle Pad of a real 3DS to your PC over Wi-Fi to play game
 - 3DS のボタンを PC のキーとして押す（Azahar のボタンの設定はそのままでよい） / Buttons are pressed as PC keys (no need to change Azahar's button settings)
 - 割り当ては 3DS の画面で決める。Azahar のいまの割り当てから始まる / Set the mapping on the 3DS; it starts from your current Azahar controls
 - スライドパッドを 360° で送れる（仮想 Xbox 360 コントローラー） / 360° Circle Pad through a virtual Xbox 360 controller
-- 下画面が PC のマウスのタッチパッドになる / The bottom screen works as a touchpad for the PC mouse
+- 下画面のタッチが Azahar の下画面の同じ場所に届く（Cemuhook UDP） / A touch on the bottom screen touches Azahar's bottom screen at the same spot (Cemuhook UDP)
 - プレイ中は画面を暗くして電池を節約 / Screens go dark while playing to save battery
 - 最初につないだ 3DS 以外からは操作できない / Only the first 3DS that connects can control the PC
 
@@ -51,9 +51,13 @@ Download `azpad-v*.zip` from [Releases](https://github.com/nyon-dev/azpad/releas
    "新規作成" (New) → "確定" (Save) creates a keymap with the same mapping as Azahar.
 4. キーマップを選んで「使う」。PC では Azahar を前面にしておきます。<br>
    Choose the keymap and press "使う" (Use). Keep Azahar in front on the PC.
+5. タッチを使うときは、Azahar の「設定 → コントロール → モーション/タッチ」で、タッチの提供元を「CemuhookUDP」にします（初回だけ）。<br>
+   To use touch, set the touch provider to "CemuhookUDP" in Azahar's Configure → Controls → Motion / Touch (first time only).
+6. プレイ中に START と SELECT をいっしょに 0.5 秒押すと、キーマップを選ぶ画面に戻ります。<br>
+   Hold START + SELECT for 0.5 s while playing to go back to the keymap list.
 
-スライドパッドを 360° にする方法、割り当ての変え方、PC 側のオプションは、zip の中の `README.txt` にあります。<br>
-See `README.txt` in the zip for the 360° Circle Pad, changing the mapping and PC options.
+スライドパッドを 360° にする方法、タッチの設定、割り当ての変え方、PC 側のオプションは、zip の中の `README.txt` にあります。<br>
+See `README.txt` in the zip for the 360° Circle Pad, touch, changing the mapping and PC options.
 
 ## 注意 / Notes
 
