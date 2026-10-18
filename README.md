@@ -51,7 +51,7 @@ Download `azpad-v*.zip` from [Releases](https://github.com/nyon-dev/azpad/releas
    "新規作成" (New) → "確定" (Save) creates a keymap with the same mapping as Azahar.
 4. キーマップを選んで「使う」。PC では Azahar を前面にしておきます。<br>
    Choose the keymap and press "使う" (Use). Keep Azahar in front on the PC.
-5. タッチを使うときは、Azahar の「設定 → コントロール → モーション/タッチ」で、タッチの提供元を「CemuhookUDP」にします（初回だけ）。<br>
+5. タッチを使うときは、Azahar の「エミュレーション → 設定 → 操作 → モーション/タッチ」で、タッチの提供元を「CemuhookUDP」にします（初回だけ）。<br>
    To use touch, set the touch provider to "CemuhookUDP" in Azahar's Configure → Controls → Motion / Touch (first time only).
 6. プレイ中に START と SELECT をいっしょに 0.5 秒押すと、キーマップを選ぶ画面に戻ります。<br>
    Hold START + SELECT for 0.5 s while playing to go back to the keymap list.
