@@ -64,7 +64,7 @@ See `README.txt` in the zip for the 360° Circle Pad, changing the mapping and P
 
 ## クレジット / Credits
 
-libctru, citro2d, citro3d (devkitPro and contributors, zlib License)。360° のスライドパッドには [vgamepad](https://github.com/yannbouyeron/vgamepad) と [ViGEmBus](https://github.com/nefarius/ViGEmBus) を使います（利用者が別に入れます）。<br>
+libctru, citro2d, citro3d (devkitPro and contributors, zlib License)。360° のスライドパッドには [vgamepad](https://github.com/yannbouteiller/vgamepad) と [ViGEmBus](https://github.com/nefarius/ViGEmBus) を使います（利用者が別に入れます）。<br>
 The 360° Circle Pad uses vgamepad and ViGEmBus (installed separately by the user). Details: `THIRD_PARTY_NOTICES.txt` in the zip.
 
 ## ライセンス / License
